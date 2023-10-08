@@ -18,7 +18,7 @@ layout: default
             By <strong>Micky Multani</strong> on 
             <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
         </p>
-        <p>{{ post.excerpt | strip_html | truncate:100 }}</p>
+        <p>{{ post.excerpt | strip_html | truncate:200 }}</p>
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More &rarr;</a>
     </div>
     {% endfor %}
