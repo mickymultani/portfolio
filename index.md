@@ -22,7 +22,7 @@ layout: default
 
 <!-- Floating Navigation Boxes -->
 <div id="floating-nav">
-    <a href="./_posts/" class="nav-box">
+    <a href="./blog" class="nav-box">
         <h3>Tuts & Thought Leadership</h3>
         <p>Discover some of my step-by-step guides and insights on emerging technologies.</p>
     </a>
