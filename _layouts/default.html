@@ -10,10 +10,10 @@
     <script>
         window.onload = function() {
             const typeStrings = [
-                "Leading technology risk strategies...",
-                "Exploring the nuances of AI, ML and CV...",
-                "Decentralizing with Web 3.0...",
-                "Building partnerships with LRC teams..."
+                "// <span style='color: green;'>Leading tech risk strategies...</span>\nlet strategy = 'innovate';",
+                "/* <span style='color: red;'>Exploring AI, ML, CV...</span> */\nfunction exploreTech(tech) { return tech; }",
+                "# <span style='color: yellow;'>Decentralizing with Web 3.0...</span>\nweb3.connect();",
+                "// <span style='color: blue;'>Building partnerships...</span>\nconst partners = ['LRC', 'XYZ'];"
             ];
             
             let typeIndex = 0;
@@ -22,12 +22,12 @@
             
             function type() {
                 if (charIndex < typeStrings[typeIndex].length) {
-                    typewriterElem.textContent += typeStrings[typeIndex][charIndex];
+                    typewriterElem.innerHTML += typeStrings[typeIndex][charIndex];
                     charIndex++;
                     setTimeout(type, 100);
                 } else {
                     setTimeout(() => {
-                        typewriterElem.textContent = "";
+                        typewriterElem.innerHTML = "";
                         charIndex = 0;
                         typeIndex = (typeIndex + 1) % typeStrings.length;
                         type();
