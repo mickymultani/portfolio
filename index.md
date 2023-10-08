@@ -23,14 +23,14 @@ layout: default
 <div id="floating-nav">
     <a href="./tutorials/" class="nav-box">
         <h3>Tuts & Thought Leadership</h3>
-        <p>Discover my step-by-step guides and insights.</p>
+        <p>Discover some of my step-by-step guides and insights on emerging technologies.</p>
     </a>
     <a href="./ai-projects/" class="nav-box">
         <h3>Artificial Intelligence & Machine Learning</h3>
         <p>Explore my work and tests on LLMs, Computer Vision and Data Analytics.</p>
     </a>
     <a href="./blockchain-projects/" class="nav-box">
-        <h3>Blockchain Tech and Web 3.0</h3>
-        <p>Sample of web 3.0 projects</p>
+        <h3>DLT and Web 3.0</h3>
+        <p>Sample of web 3.0 projects, notes and custom tooling. Includes crypto projects.</p>
     </a>
 </div>
