@@ -1,4 +1,4 @@
 baseurl: "/portfolio"
 collections:
-  ai_projects:
+  ai-projects:
     output: true
