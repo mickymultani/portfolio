@@ -12,9 +12,10 @@ layout: default
 <div class="nav-box">
     <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <p>By Micky Multani on {{ post.date | date: "%B %d, %Y" }}</p>
-    <img src="/portfolio/assets/images/embraceAI.jpg" alt="Thumbnail">
+    <img src="{{ post.thumbnail }}" alt="Thumbnail" class="post-thumbnail">
     <p>{{ post.excerpt | strip_html | truncate:250 }}</p>
-    <a href="{{ post.url }}">Read More</a>
+    <a href="{{ post.url }}" class="read-more">Read More </a>
+
 
 
 
