@@ -163,3 +163,13 @@ img.post-thumbnail {
 .post-footer p {
     margin-bottom: 0; /* No bottom margin to keep padding consistent */
 }
+
+#typewriter {
+    font-family: 'Courier New', monospace; /* This gives the typewriter or code effect */
+    font-size: 24px; /* Adjust size as required */
+    background-color: #282c34; /* Dark background for syntax highlighting effect */
+    color: #a5c359; /* Light green color to mimic popular code editors */
+    padding: 10px;
+    border-radius: 5px; /* Optional: Rounded corners */
+    display: inline-block; /* So the background color only wraps the text */
+}
