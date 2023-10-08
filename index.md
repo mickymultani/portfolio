@@ -5,16 +5,15 @@ layout: default
 <!-- Floating Header -->
 <div id="floating-header">
     <h1>Micky Multani</h1>
-    <p>Technology Risk | AI / Blockchain / FinTech | Mountain Climber</p>
+    <p>Technology Risk Leadership | AI / Blockchain / FinTech | Mountain Climber</p>
 </div>
 
 <!-- Dynamic Blurb -->
 <div id="dynamic-blurb">
     <h2>About Me</h2>
     <p>
-        Deep into the realms of AI, Blockchain, and Fintech. 
-        When I'm not immersed in the world of tech, I'm scaling the peaks of Utah, Washington, and Canada. 
-        Dive into my portfolio to explore my work, tutorials, and tech adventures.
+        Welcome to my expansive playground of tutorials, sample code, projects, and insightful blogs. Dive in to explore, learn, and collaborate. <br><br>
+        Let's navigate and mitigate the risks and complexities of emerging tech, together. My extensive experience spans AI, Blockchain, Fintech, and Web 3.0 startups, with a specialized focus on risk management associated with emerging technology. Currently, I'm driving innovation while ensuring robust risk management at one of the world's largest asset management firms.
     </p>
     <br>
     <p id="typewriter"></p>
@@ -27,11 +26,11 @@ layout: default
         <p>Discover my step-by-step guides and insights.</p>
     </a>
     <a href="./ai-projects/" class="nav-box">
-        <h3>AI Projects</h3>
-        <p>Explore my AI-driven innovations.</p>
+        <h3>Artificial Intelligence</h3>
+        <p>Explore my work and tests on LLMs.</p>
     </a>
     <a href="./blockchain-projects/" class="nav-box">
-        <h3>Blockchain Projects</h3>
-        <p>Delve into decentralized solutions.</p>
+        <h3>Distributed Ledger Technologies</h3>
+        <p>Repo of web 3.0 code and tools.</p>
     </a>
 </div>
