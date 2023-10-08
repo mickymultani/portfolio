@@ -166,7 +166,7 @@ img.post-thumbnail {
 
 .code-window {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 50px auto;  /* This will center the typewriter container horizontally */
     padding: 20px;
     background-color: #1e1e1e;
     border-radius: 8px;
