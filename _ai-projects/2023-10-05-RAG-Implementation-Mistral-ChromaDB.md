@@ -1,6 +1,6 @@
 ---
 layout: ai_project
-title: "RAG Implementation with Mistral 7B and ChromaDB"
+title: "RAG with Mistral 7B and ChromaDB"
 keywords: "ChromaDB, LLM, AI, Llama Index, RAG"
 date: 2023-10-05
 excerpt: "Mistral 7B instruct LLM for RAG with ChromaDB"
