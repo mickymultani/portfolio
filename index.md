@@ -12,11 +12,10 @@ layout: default
 <div id="dynamic-blurb">
     <h2>About Me</h2>
     <p>
-        Hello and welcome to my emerging technology playground of tutorials, sample code, projects, and thought leadership. Dive in to explore, learn, and collaborate. <br>
-        My extensive experience spans AI, Blockchain, Fintech, and Web 3.0 startups, with a specialized focus on risk management associated with emerging technologies. Currently, I'm driving innovation while ensuring robust risk management at one of the world's largest asset management firms.<br>
+        Hello and welcome to my emerging technology playground of tutorials, sample code, projects, and thought leadership. My extensive experience spans AI, Blockchain, FinTech, and Web 3.0 startups, with a specialized focus on risk management associated with emerging technologies. Currently, I'm driving innovation while ensuring robust risk management at one of the world's largest asset management firms.<br>
          </p>
     <br>
-    <p id="typewriter"></p><br>
+    <p id="typewriter"></p><br><br>
 
     <!-- Floating Navigation Boxes -->
 <div id="floating-nav">
