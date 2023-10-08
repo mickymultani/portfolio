@@ -164,17 +164,30 @@ img.post-thumbnail {
     margin-bottom: 0; /* No bottom margin to keep padding consistent */
 }
 
-#typewriter {
-    font-family: 'Courier New', monospace; /* This gives the typewriter or code effect */
-    font-size: 18px; /* Adjust size as required */
-    background-color: #282c34; /* Dark background for syntax highlighting effect */
-    color: #a5c359; /* Light green color to mimic popular code editors */
-    padding: 5px;
-    border-radius: 5px; /* Optional: Rounded corners */
-    display: inline-block; /* So the background color only wraps the text */
+.code-window {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
 }
 
-.typewriter-container {
-    text-align: center;
-    width: 100%;
+.code-window:before {
+    content: ">";
+    color: #50fa7b;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#typewriter {
+    margin-left: 25px;
+    color: #f8f8f2;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
 }
