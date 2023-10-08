@@ -1,52 +1,61 @@
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
+/* Reset and Global Styles */
+body, h1, h2, h3, p, a {
     margin: 0;
     padding: 0;
+    font-family: 'Arial', sans-serif;
+    text-decoration: none;
+    color: inherit;
 }
 
-#header {
-    background-color: #333;
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Floating Header */
+#floating-header {
+    background: linear-gradient(135deg, #6A82FB, #FC5C7D);
     color: #ffffff;
     text-align: center;
     padding: 50px 0;
+    margin-bottom: 50px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
 
-#about {
+/* Dynamic Blurb */
+#dynamic-blurb {
     max-width: 800px;
-    margin: 50px auto;
+    margin: 0 auto 50px;
     padding: 20px;
     background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
 
-#navigation {
+/* Floating Navigation Boxes */
+#floating-nav {
+    display: flex;
+    justify-content: space-between;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 0 auto;
+}
+
+.nav-box {
+    flex: 1;
+    margin: 0 10px;
+    background-color: #ffffff;
+    padding: 20px;
     text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
 }
 
-#navigation ul {
-    list-style-type: none;
-    padding: 0;
+.nav-box:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 }
 
-#navigation li {
-    display: inline-block;
+.nav-box:not(:last-child) {
     margin-right: 20px;
-}
-
-#navigation a {
-    text-decoration: none;
-    color: #333;
-    border-bottom: 2px solid #333;
-    padding: 0 0 5px;
-    transition: all 0.3s;
-}
-
-#navigation a:hover {
-    color: #555;
-    border-bottom: 2px solid #555;
 }

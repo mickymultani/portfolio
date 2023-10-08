@@ -5,5 +5,37 @@
 </head>
 <body>
     {{ content }}
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const typeStrings = [
+                "Engineer at heart...",
+                "Exploring the depths of AI...",
+                "Decentralizing with Blockchain...",
+                "Scaling tech and mountains alike..."
+            ];
+            
+            let typeIndex = 0;
+            let charIndex = 0;
+            const typewriterElem = document.getElementById("typewriter");
+            
+            function type() {
+                if (charIndex < typeStrings[typeIndex].length) {
+                    typewriterElem.textContent += typeStrings[typeIndex][charIndex];
+                    charIndex++;
+                    setTimeout(type, 100);
+                } else {
+                    setTimeout(() => {
+                        typewriterElem.textContent = "";
+                        charIndex = 0;
+                        typeIndex = (typeIndex + 1) % typeStrings.length;
+                        type();
+                    }, 2000);
+                }
+            }
+            
+            type();
+        });
+        </script>
+        
 </body>
 </html>
