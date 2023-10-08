@@ -26,7 +26,7 @@ layout: default
             <h3>Thought Leadership</h3>
             <p>Discover some of my step-by-step guides and insights on emerging technologies.</p>
         </a>
-        <a href="./ai-projects/" class="nav-box">
+        <a href="./ai-projects.html/" class="nav-box">
             <h3>Artificial Intelligence</h3>
             <p>Explore my work and tests on LLMs, Computer Vision and Data Analytics.</p>
         </a>

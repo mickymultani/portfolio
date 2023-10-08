@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<!-- Floating Header -->
+<div id="floating-header">
+    <h1>AI Projects</h1>
+    <p>Exploring Artificial Intelligence Through Hands-On Projects</p>
+</div>
+
+<!-- AI Project Listings -->
+<div id="floating-nav">
+    {% for project in site.ai_projects %}
+    <div class="nav-box">
+        <h3><a href="{{ site.baseurl }}{{ project.url }}">{{ project.title }}</a></h3>
+        <p class="post-meta">
+            Keywords: <strong>{{ project.keywords }}</strong> | 
+            Published on 
+            <time datetime="{{ project.date | date_to_xmlschema }}">{{ project.date | date: "%B %d, %Y" }}</time>
+        </p>
+        <p>{{ project.excerpt }}</p>
+        <a href="{{ site.baseurl }}{{ project.url }}" class="read-more">View Project &rarr;</a>
+    </div>
+    {% endfor %}
+</div>
