@@ -10,21 +10,11 @@ layout: default
 
 <!-- Blog Listings -->
 <div class="nav-box">
-    <!-- Thumbnail Image -->
-    <div class="thumbnail-container">
-        <img src="{{ site.baseurl }}{{ post.thumbnail }}" alt="{{ post.title }} thumbnail" class="post-thumbnail">
-    </div>
-    
-    <!-- Post Content -->
-    <div class="post-details">
-        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-        <p class="post-meta">
-            By <strong>Micky Multani</strong> on 
-            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-        </p>
-        <p>{{ post.excerpt | strip_html | truncate:250 }}</p>
-        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More &rarr;</a>
-    </div>
-    <div style="clear:both;"></div> <!-- Clear float -->
+    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    <p>By Micky Multani on {{ post.date | date: "%B %d, %Y" }}</p>
+    <img src="{{ site.baseurl }}{{ post.thumbnail }}" alt="Thumbnail">
+    <p>{{ post.excerpt | strip_html | truncate:250 }}</p>
+    <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
 </div>
+
 
