@@ -100,13 +100,14 @@ img.post-thumbnail {
 }
 
 .post-content img {
-    max-width: 100%;
+    max-width: 90%; /* Reduce to 90% or any preferred percentage */
     height: auto;
     display: block;
-    margin: 20px 0;
+    margin: 20px auto; /* auto for left and right margins to center the image */
     padding: 10px;
     box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
 }
+
 
 
 /* You can add more specific styles for other elements like lists, images, blockquotes, etc. similar to the previous CSS we discussed. */
