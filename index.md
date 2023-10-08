@@ -4,8 +4,8 @@ layout: default
 
 <!-- Floating Header -->
 <div id="floating-header">
-    <h1>Micky Mult</h1>
-    <p>Engineer | Tech Enthusiast | Mountain Climber</p>
+    <h1>Micky Multani</h1>
+    <p>Technology Risk | AI / Blockchain / FinTech | Mountain Climber</p>
 </div>
 
 <!-- Dynamic Blurb -->
@@ -16,6 +16,7 @@ layout: default
         When I'm not immersed in the world of tech, I'm scaling the peaks of Utah, Washington, and Canada. 
         Dive into my portfolio to explore my work, tutorials, and tech adventures.
     </p>
+    <br>
     <p id="typewriter"></p>
 </div>
 
