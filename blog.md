@@ -2,8 +2,8 @@
 layout: default
 ---
 
-# Tutorials
+# Blog Posts
 
-{% for post in site.tutorials %}
+{% for post in site.posts %}
 - [{{ post.title }}]({{ post.url }})
 {% endfor %}
