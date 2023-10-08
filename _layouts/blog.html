@@ -10,7 +10,12 @@ layout: default
 
 <!-- Blog Listings -->
 <div class="nav-box">
-    <img src="{{ site.baseurl }}{{ post.thumbnail }}" alt="{{ post.title }} thumbnail" class="post-thumbnail">
+    <!-- Thumbnail Image -->
+    <div class="thumbnail-container">
+        <img src="{{ site.baseurl }}{{ post.thumbnail }}" alt="{{ post.title }} thumbnail" class="post-thumbnail">
+    </div>
+    
+    <!-- Post Content -->
     <div class="post-content">
         <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
         <p class="post-meta">

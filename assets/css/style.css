@@ -147,17 +147,24 @@ article.post footer {
     border-bottom-style: solid;
 }
 
-.post-thumbnail {
-    max-width: 100px;
-    height: auto;
-    margin-right: 10px;
+/* Thumbnail styling */
+.thumbnail-container {
     float: left;
+    width: 20%;  /* Adjust as needed */
+    padding-right: 20px;  /* Some spacing between the image and the content */
+}
+.post-thumbnail {
+    max-width: 100%;
+    height: auto;
 }
 
+/* Post Content styling */
 .post-content {
-    overflow: hidden;  /* This will clear the float */
+    float: left;
+    width: 75%;  /* Adjust as needed */
 }
 
+/* Clear float for the nav-box */
 .nav-box {
-    clear: both; /* to clear the float and prevent layout issues */
+    overflow: auto;
 }
