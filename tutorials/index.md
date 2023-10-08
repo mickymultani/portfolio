@@ -5,5 +5,6 @@ layout: default
 # Tutorials
 
 {% for post in site.tutorials %}
-- [{{ post.title }}]({{ post.url }})
+- [{{ post.title }}]({{ site.baseurl }}{{ post.url }})
 {% endfor %}
+
