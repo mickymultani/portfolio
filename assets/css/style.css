@@ -148,3 +148,18 @@ img.post-thumbnail {
     color: green;
     font-family: 'Courier New', Courier, monospace;
 }
+
+.post-footer {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 20px;
+    margin-top: 40px;
+    border-top: 2px solid #e0e0e0;
+    font-size: 0.9em; /* A bit smaller than regular text for subtlety */
+    color: #555; /* Darker gray text for readability against light background */
+    text-align: justify; /* Justified text for a neat look */
+    line-height: 1.6; /* Good line spacing for readability */
+}
+
+.post-footer p {
+    margin-bottom: 0; /* No bottom margin to keep padding consistent */
+}
