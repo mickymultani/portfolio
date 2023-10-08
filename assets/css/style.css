@@ -147,18 +147,36 @@ article.post footer {
     border-bottom-style: solid;
 }
 
-/* Thumbnail styling */
-.thumbnail-container,
-.post-content,
 .nav-box {
-    float: none;
-    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0;
 }
 
-.post-thumbnail {
-    max-width: 100%;
-    height: auto;
+.post-details {
+    overflow: hidden; /* Clearing the image float */
 }
+
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #444;
+    text-decoration: none;
+    border-bottom: 1px dashed #444;
+}
+
+.read-more:hover {
+    border-bottom-style: solid;
+}
+
+
+img.post-thumbnail {
+    max-width: 150px; /* You can adjust this value as needed */
+    height: auto;
+    display: block;
+    margin-right: 20px;
+    float: left;
+}
+
 
 /* Post Content styling */
 .post-content {
@@ -166,7 +184,3 @@ article.post footer {
     width: 75%;  /* Adjust as needed */
 }
 
-/* Clear float for the nav-box */
-.nav-box {
-    overflow: auto;
-}

@@ -7,7 +7,7 @@ thumbnail: /assets/images/embraceAI.jpg
 
 ## The Dawn of AI
 
-As we stand on the precipice of a new era, artificial intelligence (AI) is no longer the stuff of science fiction. It's shaping industries, revolutionizing research, and changing the way we perceive technology.
+As we stand on the precipice of a new era, artificial intelligence (AI) is no longer the stuff of science fiction. It's shaping industries, revolutionizing research, and changing the way we perceive technology. <!--more-->
 
 ![AI Image]({{ site.baseurl }}/assets/images/embraceAI.jpg)
 
