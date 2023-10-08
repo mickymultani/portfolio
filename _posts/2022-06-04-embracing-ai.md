@@ -2,7 +2,7 @@
 layout: post
 title: "Embracing the Future: The Rise of AI in Modern Society"
 date: 2022-06-04
-thumbnail: {{ site.baseurl }}/assets/images/embraceAI.jpg
+thumbnail: /assets/images/embraceAI.jpg
 ---
 
 ## The Dawn of AI

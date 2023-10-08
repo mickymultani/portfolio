@@ -148,10 +148,14 @@ article.post footer {
 }
 
 .post-thumbnail {
-    max-width: 100px; /* or any desired size */
+    max-width: 100px;
     height: auto;
     margin-right: 10px;
-    float: left; /* to have the image on the left side of the text */
+    float: left;
+}
+
+.post-content {
+    overflow: hidden;  /* This will clear the float */
 }
 
 .nav-box {

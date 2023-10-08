@@ -9,9 +9,9 @@ layout: default
 </div>
 
 <!-- Blog Listings -->
-<div id="floating-nav">
-    {% for post in site.posts %}
-    <div class="nav-box">
+<div class="nav-box">
+    <img src="{{ site.baseurl }}{{ post.thumbnail }}" alt="{{ post.title }} thumbnail" class="post-thumbnail">
+    <div class="post-content">
         <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
         <p class="post-meta">
             By <strong>Micky Multani</strong> on 
@@ -19,7 +19,5 @@ layout: default
         </p>
         <p>{{ post.excerpt | strip_html | truncate:100 }}</p>
         <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More &rarr;</a>
-        <img src="{{ site.baseurl }}{{ post.thumbnail }}" alt="{{ post.title }} thumbnail" class="post-thumbnail">
     </div>
-    {% endfor %}
 </div>
