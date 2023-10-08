@@ -17,10 +17,9 @@ layout: default
         
     </p>
     <br>
-    <p id="typewriter"></p>
-</div>
+    <p id="typewriter"></p><br><br>
 
-<!-- Floating Navigation Boxes -->
+    <!-- Floating Navigation Boxes -->
 <div id="floating-nav">
     <a href="./blog" class="nav-box">
         <h3>Thought Leadership</h3>
@@ -35,3 +34,5 @@ layout: default
         <p>Sample of web 3.0 projects, notes and custom tooling. Includes crypto projects.</p>
     </a>
 </div>
+</div>
+
