@@ -99,6 +99,16 @@ img.post-thumbnail {
     margin-bottom: 1.5em;
 }
 
+.post-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px 0;
+    padding: 10px;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+}
+
+
 /* You can add more specific styles for other elements like lists, images, blockquotes, etc. similar to the previous CSS we discussed. */
 
 

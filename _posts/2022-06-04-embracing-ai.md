@@ -18,6 +18,9 @@ From healthcare to finance, AI's imprint is undeniable. But what does this mean 
 - **Finance**: Risk assessment, fraud detection, and algorithmic trading.
 - **Entertainment**: Content recommendation, game design, and music composition.
 
+![AI Image]({{ site.baseurl }}/assets/images/postembraceAI.jpg)
+
+
 ## The Potential and Promise
 
 The capabilities of AI are not just about automating tasks but enhancing them. With its potential, we’re looking at:
