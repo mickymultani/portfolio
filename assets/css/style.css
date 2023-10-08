@@ -169,7 +169,7 @@ img.post-thumbnail {
     font-size: 18px; /* Adjust size as required */
     background-color: #282c34; /* Dark background for syntax highlighting effect */
     color: #a5c359; /* Light green color to mimic popular code editors */
-    padding: 10px;
+    padding: 5px;
     border-radius: 5px; /* Optional: Rounded corners */
     display: inline-block; /* So the background color only wraps the text */
 }
