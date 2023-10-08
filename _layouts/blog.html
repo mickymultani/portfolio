@@ -12,9 +12,10 @@ layout: default
 <div class="nav-box">
     <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
     <p>By Micky Multani on {{ post.date | date: "%B %d, %Y" }}</p>
-    <img src="{{ site.baseurl }}{{ post.thumbnail }}" alt="Thumbnail">
+    <img src="{{ post.thumbnail }}" alt="Thumbnail">
     <p>{{ post.excerpt | strip_html | truncate:250 }}</p>
-    <a href="{{ site.baseurl }}{{ post.url }}">Read More</a>
+    <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+
 </div>
 
 
