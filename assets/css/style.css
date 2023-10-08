@@ -148,11 +148,13 @@ article.post footer {
 }
 
 /* Thumbnail styling */
-.thumbnail-container {
-    float: left;
-    width: 20%;  /* Adjust as needed */
-    padding-right: 20px;  /* Some spacing between the image and the content */
+.thumbnail-container,
+.post-content,
+.nav-box {
+    float: none;
+    width: 100%;
 }
+
 .post-thumbnail {
     max-width: 100%;
     height: auto;
