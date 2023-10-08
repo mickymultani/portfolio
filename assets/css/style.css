@@ -35,14 +35,15 @@ body {
 /* Floating Navigation Boxes */
 #floating-nav {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     max-width: 800px;
     margin: 0 auto;
 }
 
 .nav-box {
-    flex: 1;
-    margin: 0 10px;
+    flex: 1 1 45%;  /* This will make each box take up 45% of the container width, allowing for two items per row */
+    margin: 0 10px 20px;  /* Added bottom margin for spacing between rows */
     background-color: #ffffff;
     padding: 20px;
     text-align: justify;
