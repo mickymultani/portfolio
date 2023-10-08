@@ -3,7 +3,7 @@ layout: post
 title: "Embracing the Future: The Rise of AI in Modern Society"
 date: 2022-06-04
 thumbnail: /assets/images/embraceAI.jpg
-excerpt: "As we stand on the precipice of a new era, artificial intelligence (AI) is no longer the stuff of science fiction. It's shaping industries, revolutionizing research, and changing the way we perceive technology. From healthcare to finance, AI's imprint is undeniable."
+excerpt: "As we stand on the precipice of a new era, artificial intelligence (AI) is no longer the stuff of science fiction. It's shaping industries, revolutionizing research, and changing the way we perceive technology."
 ---
 
 ## The Dawn of AI
