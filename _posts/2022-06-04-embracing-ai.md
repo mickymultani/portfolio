@@ -10,8 +10,6 @@ excerpt: "As we stand on the precipice of a new era, artificial intelligence (AI
 
 As we stand on the precipice of a new era, artificial intelligence (AI) is no longer the stuff of science fiction. It's shaping industries, revolutionizing research, and changing the way we perceive technology. 
 
-![AI Image]({{ site.baseurl }}/assets/images/embraceAI.jpg)
-
 From healthcare to finance, AI's imprint is undeniable. But what does this mean for our future?
 
 ### The Transformation of Industries
