@@ -173,3 +173,8 @@ img.post-thumbnail {
     border-radius: 5px; /* Optional: Rounded corners */
     display: inline-block; /* So the background color only wraps the text */
 }
+
+.typewriter-container {
+    text-align: center;
+    width: 100%;
+}
