@@ -5,15 +5,20 @@ layout: default
 <!-- Floating Header -->
 <div id="floating-header">
     <h1>Blog Posts</h1>
-    <p>Insights, Tutorials, and Thought Leadership</p>
+    <p>Insights, News, and Thought Leadership</p>
 </div>
 
 <!-- Blog Listings -->
 <div id="floating-nav">
     {% for post in site.posts %}
-    <a href="{{ site.baseurl }}{{ post.url }}" class="nav-box">
-        <h3>{{ post.title }}</h3>
+    <div class="nav-box">
+        <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+        <p class="post-meta">
+            By <strong>Micky Multani</strong> on 
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+        </p>
         <p>{{ post.excerpt | strip_html | truncate:100 }}</p>
-    </a>
+        <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More &rarr;</a>
+    </div>
     {% endfor %}
 </div>

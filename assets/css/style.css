@@ -126,3 +126,23 @@ article.post footer {
     font-size: 0.9em;
     color: #777;
 }
+
+/* Post meta styling */
+.post-meta {
+    font-size: 0.9em;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Read more link styling */
+.read-more {
+    display: inline-block;
+    margin-top: 10px;
+    color: #444;
+    text-decoration: none;
+    border-bottom: 1px dashed #444;
+}
+
+.read-more:hover {
+    border-bottom-style: solid;
+}
