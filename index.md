@@ -13,7 +13,8 @@ layout: default
     <h2>About Me</h2>
     <p>
         Welcome to my expansive playground of tutorials, sample code, projects, and insightful blogs. Dive in to explore, learn, and collaborate. <br><br>
-        Let's navigate and mitigate the risks and complexities of emerging tech, together. My extensive experience spans AI, Blockchain, Fintech, and Web 3.0 startups, with a specialized focus on risk management associated with emerging technology. Currently, I'm driving innovation while ensuring robust risk management at one of the world's largest asset management firms.
+        Let's navigate and mitigate the risks and complexities of emerging tech, together. My extensive experience spans AI, Blockchain, Fintech, and Web 3.0 startups, with a specialized focus on risk management associated with emerging technology. Currently, I'm driving innovation while ensuring robust risk management at one of the world's largest asset management firms.<br><br>
+        [Check out my latest blog posts](/blog)
     </p>
     <br>
     <p id="typewriter"></p>
@@ -21,7 +22,7 @@ layout: default
 
 <!-- Floating Navigation Boxes -->
 <div id="floating-nav">
-    <a href="./tutorials/" class="nav-box">
+    <a href="./_posts/" class="nav-box">
         <h3>Tuts & Thought Leadership</h3>
         <p>Discover some of my step-by-step guides and insights on emerging technologies.</p>
     </a>
