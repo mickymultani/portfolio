@@ -60,24 +60,69 @@ body {
     margin-right: 20px;
 }
 
-/* Blog Post Styles */
-#post h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
+/* Base post styles */
+article.post {
+    max-width: 800px;
+    margin: 50px auto;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: #333;
+    line-height: 1.6;
 }
 
-#post img {
-    max-width: 100%;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
-    margin: 20px 0;
-}
-
-#post ul {
-    list-style-type: disc;
-    padding-left: 20px;
-}
-
-#post li {
+/* Title styling */
+article.post h1 {
+    font-size: 2.5em;
     margin-bottom: 10px;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 20px;
+}
+
+/* Date styling */
+article.post time {
+    color: #777;
+    font-size: 0.9em;
+}
+
+/* Content headings */
+article.post h2, article.post h3 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+/* Images inside the post */
+article.post img {
+    max-width: 100%;
+    display: block;
+    margin: 30px auto;
+    border: 1px solid #e0e0e0;
+    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Lists */
+article.post ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+article.post ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+/* Blockquotes */
+article.post blockquote {
+    border-left: 4px solid #e0e0e0;
+    padding-left: 20px;
+    font-style: italic;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+}
+
+/* Post footer */
+article.post footer {
+    margin-top: 50px;
+    border-top: 1px solid #e0e0e0;
+    padding-top: 20px;
+    font-size: 0.9em;
+    color: #777;
 }
