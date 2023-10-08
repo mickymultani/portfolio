@@ -81,11 +81,26 @@ img.post-thumbnail {
 }
 
 
-/* Post Content */
+/* Individual Post Page */
+
 .post-content {
-    float: left;
-    width: calc(100% - 170px);  /* Adjusting for thumbnail width and margin */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
 }
+
+.post-content h2, .post-content h3 {
+    color: #555;
+}
+
+.post-content p {
+    margin-bottom: 1.5em;
+}
+
+/* You can add more specific styles for other elements like lists, images, blockquotes, etc. similar to the previous CSS we discussed. */
+
 
 /* Clear floats */
 .nav-box::after {
