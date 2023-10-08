@@ -27,10 +27,10 @@ layout: default
     </a>
     <a href="./ai-projects/" class="nav-box">
         <h3>Artificial Intelligence & Machine Learning</h3>
-        <p>Explore my work and tests on LLMs.</p>
+        <p>Explore my work and tests on LLMs, Computer Vision and Data Analytics.</p>
     </a>
     <a href="./blockchain-projects/" class="nav-box">
-        <h3>Blockchain Technologies and Web 3.0</h3>
-        <p>Repo of web 3.0 code and tools.</p>
+        <h3>Blockchain Tech and Web 3.0</h3>
+        <p>Sample of web 3.0 projects</p>
     </a>
 </div>
