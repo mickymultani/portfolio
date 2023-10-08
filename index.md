@@ -14,7 +14,7 @@ layout: default
     <p>
         Welcome to my expansive playground of tutorials, sample code, projects, and insightful blogs. Dive in to explore, learn, and collaborate. <br><br>
         Let's navigate and mitigate the risks and complexities of emerging tech, together. My extensive experience spans AI, Blockchain, Fintech, and Web 3.0 startups, with a specialized focus on risk management associated with emerging technology. Currently, I'm driving innovation while ensuring robust risk management at one of the world's largest asset management firms.<br><br>
-        [Check out my latest blog posts](/blog)
+        
     </p>
     <br>
     <p id="typewriter"></p>
@@ -23,11 +23,11 @@ layout: default
 <!-- Floating Navigation Boxes -->
 <div id="floating-nav">
     <a href="./blog" class="nav-box">
-        <h3>Tuts & Thought Leadership</h3>
+        <h3>Thought Leadership</h3>
         <p>Discover some of my step-by-step guides and insights on emerging technologies.</p>
     </a>
     <a href="./ai-projects/" class="nav-box">
-        <h3>Artificial Intelligence & Machine Learning</h3>
+        <h3>Artificial Intelligence</h3>
         <p>Explore my work and tests on LLMs, Computer Vision and Data Analytics.</p>
     </a>
     <a href="./blockchain-projects/" class="nav-box">
