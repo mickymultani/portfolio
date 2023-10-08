@@ -2,3 +2,5 @@ baseurl: "/portfolio"
 collections:
   ai-projects:
     output: true
+    directory: ai-projects
+
