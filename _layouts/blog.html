@@ -10,11 +10,12 @@ layout: default
 
 <!-- Blog Listings -->
 <div class="nav-box">
-    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
     <p>By Micky Multani on {{ post.date | date: "%B %d, %Y" }}</p>
-    <img src="{{ post.thumbnail }}" alt="Thumbnail">
+    <img src="/portfolio/assets/images/embraceAI.jpg" alt="Thumbnail">
     <p>{{ post.excerpt | strip_html | truncate:250 }}</p>
-    <a href="{{ post.url | prepend: site.baseurl }}">Read More</a>
+    <a href="/portfolio/_posts/2022-06-04-embracing-ai.md">Read More</a>
+
 
 </div>
 
