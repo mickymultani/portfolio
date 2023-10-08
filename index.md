@@ -22,7 +22,7 @@ layout: default
 <!-- Floating Navigation Boxes -->
 <div id="floating-nav">
     <a href="./tutorials/" class="nav-box">
-        <h3>Tutorials</h3>
+        <h3>Tuts & Thought Leadership</h3>
         <p>Discover my step-by-step guides and insights.</p>
     </a>
     <a href="./ai-projects/" class="nav-box">
@@ -30,7 +30,7 @@ layout: default
         <p>Explore my work and tests on LLMs.</p>
     </a>
     <a href="./blockchain-projects/" class="nav-box">
-        <h3>Distributed Ledger Technologies</h3>
+        <h3>Blockchain and Web 3.0</h3>
         <p>Repo of web 3.0 code and tools.</p>
     </a>
 </div>
