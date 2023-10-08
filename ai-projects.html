@@ -11,7 +11,9 @@ layout: default
 <!-- AI Project Listings -->
 <div id="floating-nav">
     {% for project in site.ai-projects %}
-    <p>{{ project.title }}</p>
+      <li>{{ project.title }}</li>
+    {% else %}
+      <li>No projects found</li>
     {% endfor %}
 
 </div>
