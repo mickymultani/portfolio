@@ -14,7 +14,8 @@ layout: default
     <p>By Micky Multani on {{ post.date | date: "%B %d, %Y" }}</p>
     <img src="/portfolio/assets/images/embraceAI.jpg" alt="Thumbnail">
     <p>{{ post.excerpt | strip_html | truncate:250 }}</p>
-    <a href="/portfolio/_posts/2022-06-04-embracing-ai.md">Read More</a>
+    <a href="{{ post.url }}">Read More</a>
+
 
 
 </div>

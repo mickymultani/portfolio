@@ -49,15 +49,12 @@ body {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     transition: transform 0.3s, box-shadow 0.3s;
+    position: relative;
 }
 
 .nav-box:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.2);
-}
-
-.nav-box:not(:last-child) {
-    margin-right: 20px;
 }
 
 /* Base post styles */
@@ -69,69 +66,32 @@ article.post {
     line-height: 1.6;
 }
 
-/* Title styling */
-article.post h1 {
-    font-size: 2.5em;
-    margin-bottom: 10px;
-    border-bottom: 2px solid #e0e0e0;
-    padding-bottom: 20px;
-}
-
-/* Date styling */
-article.post time {
-    color: #777;
-    font-size: 0.9em;
-}
-
-/* Content headings */
-article.post h2, article.post h3 {
-    margin-top: 30px;
+/* Title, Date, and Thumbnail */
+.post-details h3, .post-details p, .post-thumbnail {
     margin-bottom: 15px;
-    color: #555;
 }
 
-/* Images inside the post */
-article.post img {
-    max-width: 100%;
-    display: block;
-    margin: 30px auto;
-    border: 1px solid #e0e0e0;
-    box-shadow: 4px 4px 10px rgba(0,0,0,0.1);
+/* Thumbnail */
+img.post-thumbnail {
+    max-width: 150px;
+    height: auto;
+    float: left;
+    margin-right: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
 
-/* Lists */
-article.post ul {
-    list-style-type: disc;
-    margin-left: 20px;
-}
-article.post ol {
-    list-style-type: decimal;
-    margin-left: 20px;
+/* Post Content */
+.post-content {
+    float: left;
+    width: calc(100% - 170px);  /* Adjusting for thumbnail width and margin */
 }
 
-/* Blockquotes */
-article.post blockquote {
-    border-left: 4px solid #e0e0e0;
-    padding-left: 20px;
-    font-style: italic;
-    margin: 20px 0;
-    background-color: #f9f9f9;
-}
-
-/* Post footer */
-article.post footer {
-    margin-top: 50px;
-    border-top: 1px solid #e0e0e0;
-    padding-top: 20px;
-    font-size: 0.9em;
-    color: #777;
-}
-
-/* Post meta styling */
-.post-meta {
-    font-size: 0.9em;
-    color: #777;
-    margin-bottom: 10px;
+/* Clear floats */
+.nav-box::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /* Read more link styling */
@@ -141,46 +101,17 @@ article.post footer {
     color: #444;
     text-decoration: none;
     border-bottom: 1px dashed #444;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
 }
 
 .read-more:hover {
     border-bottom-style: solid;
 }
 
-.nav-box {
-    padding: 20px 0;
-    border-bottom: 1px solid #e0e0e0;
+/* Additional Post styling */
+.post-meta {
+    font-size: 0.9em;
+    color: #777;
 }
-
-.post-details {
-    overflow: hidden; /* Clearing the image float */
-}
-
-.read-more {
-    display: inline-block;
-    margin-top: 10px;
-    color: #444;
-    text-decoration: none;
-    border-bottom: 1px dashed #444;
-}
-
-.read-more:hover {
-    border-bottom-style: solid;
-}
-
-
-img.post-thumbnail {
-    max-width: 150px; /* You can adjust this value as needed */
-    height: auto;
-    display: block;
-    margin-right: 20px;
-    float: left;
-}
-
-
-/* Post Content styling */
-.post-content {
-    float: left;
-    width: 75%;  /* Adjust as needed */
-}
-
